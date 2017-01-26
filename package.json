@@ -1,0 +1,23 @@
+{
+  "name": "blue-streak",
+  "version": "0.3.0",
+  "description": "Easy Tomcat and Maven integration in Node.js environment.",
+  "bin": {
+    "blue-streak": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "costajpb",
+  "contributor": "Papacidero",
+  "license": "ISC",
+  "dependencies": {
+    "child-process-promise": "^1.1.0",
+    "maven": "^3.0.6",
+    "path": "^0.11.14",
+    "pom-parser": "^1.1.0",
+    "rc": "^1.1.1",
+    "shelljs": "^0.5.3",
+    "yargs": "^3.23.0"
+  }
+}
